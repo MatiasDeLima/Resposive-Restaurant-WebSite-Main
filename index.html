@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./src/img/ramen.png" type="image/x-icon">
+
+        <!--=============== BOX ICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./src/css/style.css">
+
+        <title>Responsive food website - MatiasDeLima</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Cup-<span>Cake</span>
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About Us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#menu" class="nav__link">Menu</a>
+                        </li>
+
+                        <i class='bx bx-moon change-theme' id="theme-button"></i>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                </div> 
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                
+                <a href="#" class="button nav__button">Sign In</a>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">The best<br> <span>food</span> for <span>you</span><br> familie.</h1>
+                        <p class="home__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <a href="#" class="button">Order Now</a>
+                    </div>
+
+                    <div class="home__image">
+                        <img src="./src/img/home-image.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <p class="about__subtitle">About Us</p>
+                        <h2 class="about__title">We cook the<br> best food.</h2>
+                        <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <a href="#" class="button">Learn More</a>
+                    </div>
+
+                    <div class="about__image">
+                        <img src="./src/img/about-image.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h3 class="section__subtitle">Services</h3>
+                <h2 class="section__title">See some of our<br>services</h2>
+
+                <div class="services__container container grid">
+                    <div class="services__card">
+                        <div class="services__icon">
+                            <i class='bx bxl-whatsapp' ></i>
+                        </div>
+                        <h3 class="card__title">Fast food</h3>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+
+                    <div class="services__card">
+                        <div class="services__icon">
+                            <i class='bx bx-car'></i>
+                        </div>
+                        <h3 class="card__title">Delivery</h3>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+
+                    <div class="services__card">
+                        <div class="services__icon">
+                            <i class='bx bxs-pizza' ></i>
+                        </div>
+                        <h3 class="card__title">Execellent food</h3>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+
+                    <div class="services__card">
+                        <div class="services__icon">
+                            <i class='bx bx-bowl-rice'></i>
+                        </div>
+                        <h3 class="card__title">Self-service</h3>
+                        <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                            labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== MENU ====================-->
+            <section class="menu section" id="menu">
+                <h3 class="section__subtitle">Special</h3>
+                <h2 class="section__title">Menu Of the <br>week.</h2>
+
+                <div class="menu__container container grid">
+                    <div class="menu__card">
+                        <img src="./src/img/menu-image-1.png" alt="" class="menu__image">
+                        <h3 class="menu__name">Shrimp in sauce</h3>
+                        <span class="menu__detail">One of the best <br>dishes.</span>
+                        <span class="menu__preci">$22,00</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__card">
+                        <img src="./src/img/manu-image-2.png" alt="" class="menu__image">
+                        <h3 class="menu__name">Dish of the week</h3>
+                        <span class="menu__detail">One of the best <br>dishes.</span>
+                        <span class="menu__preci">$15,80</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__card">
+                        <img src="./src/img/menu-image-3.png" alt="" class="menu__image">
+                        <h3 class="menu__name">Japanese food</h3>
+                        <span class="menu__detail">One of the best <br>dishes.</span>
+                        <span class="menu__preci">$7,00</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="menu__card">
+                        <img src="./src/img/menu-image-4.png" alt="" class="menu__image">
+                        <h3 class="menu__name">Seasoned salad</h3>
+                        <span class="menu__detail">One of the best <br>dishes.</span>
+                        <span class="menu__preci">$10,90</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== COMMENTS ====================-->
+            <section class="comments section" id="comments">
+                <h3 class="section__subtitle">Comments</h3>
+                <h2 class="section__title">Our customers <br>love it!</h2>
+
+                <div class="comments__container container grid">
+                    <div class="comments__card">
+                        <img src="./src/img/comments-image-1.png" alt="" class="comments__image">
+                        <h3 class="comments__name">Esther Howard</h3>
+                        <p class="comments__description">It has good food and great service, I really enjoyed it!!</p>
+                    </div>
+
+                    <div class="comments__card">
+                        <img src="./src/img/comments-image-2.png" alt="" class="comments__image">
+                        <h3 class="comments__name">Devon Lane</h3>
+                        <p class="comments__description">It has good food and great service, I really enjoyed it!!</p>
+                    </div>
+
+                    <div class="comments__card">
+                        <img src="./src/img/comments-image-3.png" alt="" class="comments__image">
+                        <h3 class="comments__name">Leslie Alexander</h3>
+                        <p class="comments__description">It has good food and great service, I really enjoyed it!!</p>
+                    </div>
+
+                    <div class="comments__card">
+                        <img src="./src/img/comments-image-4.png" alt="" class="comments__image">
+                        <h3 class="comments__name">Maria Silva</h3>
+                        <p class="comments__description">It has good food and great service, I really enjoyed it!!</p>
+                    </div>
+                </div>
+
+                <div class="comments__prox">
+                    <div class="comments__arrow">
+                        <i class='bx bx-left-arrow-alt'></i>
+                    </div>
+
+                    <div class="comments__arrow">
+                        <i class='bx bx-right-arrow-alt' ></i>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT US ====================-->
+            <section class="contact section">
+                <h3 class="section__subtitle">Susbcrib</h3>
+                <h2 class="section__title">For more <br>information</h2>
+
+                <div class="contact__container container">
+                     <div class="contact__container-color">
+                        <h3 class="contact__title">Get in touch for more <br>information!</h3>
+                        <p class="contact__description">
+                            Get in tLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                            magna aliqua. Ut enim ad minim veniamouch for more information!</p>
+                        <div class="bottom__contact">
+                           <input type="text"class="contact__email" placeholder="E-mail">
+                           <a href="#" class="button">Contact Us</a>
+                        </div>
+                     </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+              <div class="footer__top">
+                <a href="#" class="nav__logo">Cup-<span>Cake</span></a>
+                <span class="footer__description">Restaurant</span>
+
+                <div class="footer__social">
+                <i class='bx bxl-facebook' ></i>
+                <i class='bx bxl-instagram' ></i>
+                <i class='bx bxl-twitter' ></i>
+                </div>
+              </div>
+
+              <ul class="footer__list">
+                <h3 class="footer__title">Services</h3>
+
+                <li>
+                    <a href="#" class="footer__link">Delivery</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Pricing</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Fast food</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Reserve your spot</a>
+                </li>
+              </ul>
+
+              <ul class="footer__list">
+                <h3 class="footer__title">Information</h3>
+
+                <li>
+                    <a href="#" class="footer__link">Event</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Privacy policy</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">Terms of services</a>
+                </li>
+              </ul>
+
+              <ul class="footer__list">
+                <h3 class="footer__title">Adress</h3>
+
+                <li>
+                    <a href="#" class="footer__link">Paraíba-Brazil</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">R. Castanha-123</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">67-89-76</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__link">cupcake@gmail.com</a>
+                </li>
+              </ul>
+
+              <p class="footer__copy">&#169; 2022 MatiasDeLima All right reserved.</p>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt' ></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src=""></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src=""></script>
+
+        <!--=============== MIXITUP JS ===============-->
+        <script src=""></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="./src/js/script.js"></script>
+    </body>
+</html>
