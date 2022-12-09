@@ -3,6 +3,7 @@
 ### Resposive Restaurant WebSite Main
 
 - Responsive Restaurant WebSite Using HTML, CSS & JavaScript.
+- Design made in figma
 - It has three color designs (green pallete colors)
 - Smooth scrolling in each section.
 - Developed first with the Mobile First methodology, then for desktop.
